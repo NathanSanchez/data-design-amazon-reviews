@@ -11,7 +11,7 @@
 		<h1>use case</h1>
 		<p>Tom looking for some shoes, gose to amazon.com gose to search bar types in cool shoes 876 results are found. Tom starts scrolling down the web page looking at all the cool shoes finds a pair of shoes he likes double clicks on them decied that the shoes are right for him adds them to cart clicks on payment all the credit card info boxes pop up he enters his card info then he adds his address with toms amazon prime account he gets 2 day free shipping. fast forword 2 days and tom gets his new kicks hes pretty hype about them puts them on instantly he feels like a new man tom feels so good he gose back to the page for his cool shoes and scrolls down to the review section begains typing out one of toms hella good reviews leaves a 5 star rating </p>
 		<h1>identify entities</h1>
-		<!--if it looks like i dont know what im doing well your right cause i dont-->
+		<!--if it looks like i dont know what im doing well your right cause i dont 2-->
 		<p>comment section 1-5 star button user profile name </p>
 		<h1>conceptual model</h1>
 		<ol>
