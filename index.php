@@ -23,9 +23,9 @@
 		<h1>entities</h1>
 		<ul>
 
-			<li>productid (primary)</li>
-			<li>Profileid</li>
-			<li>reviewid</li>
+			<li>productID (primary)</li>
+			<li>ProfileID</li>
+			<li>reviewID</li>
 
 		</ul>
 
