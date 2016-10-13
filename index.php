@@ -14,7 +14,7 @@
 		<!--if it looks like i dont know what im doing well your right cause i dont 3-->
 		<p>comment section 1-5 star button user profile name </p>
 		<h1>conceptual model</h1>
-		<ol>
+		<ul>
 			<li>productid (primary)</li>
 			<li>productInfo</li>
 			<li>userProfileid</li>
@@ -22,7 +22,7 @@
 			<li>reviewStars</li>
 			<li>reviewContent</li>
 			<li>reviewDateTime</li>
-		</ol>
+		</ul>
 	</body>
 
 
