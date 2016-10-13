@@ -1,7 +1,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
-		<title>data design for amazon reviews baby</title>
+		<title>data design for amazon reviews</title>
 	</head>
 	<body>
 		<header>Nathan</header>
@@ -13,6 +13,15 @@
 		<h1>identify entities</h1>
 		<!--if it looks like i dont know what im doing well your right cause i dont-->
 		<p>comment section 1-5 star button user profile name user profile picture</p>
+		<h1>conceptual model</h1>
+		<ol>
+			<li>productid (primary)</li>
+			<li>productInfo</li>
+			<li>userProfileid</li>
+			<li>reviewStars</li>
+			<li>reviewContent</li>
+			<li>reviewDateTime</li>
+		</ol>
 	</body>
 
 
