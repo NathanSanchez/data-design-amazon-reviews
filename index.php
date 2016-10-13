@@ -24,7 +24,7 @@
 		<ul>
 
 			<li>productID (primary)</li>
-			<li>ProfileID(primary)</li>
+			<li>profileID(primary)</li>
 			<li>reviewID(weak)</li>
 
 		</ul>
