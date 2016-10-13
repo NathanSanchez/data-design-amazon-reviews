@@ -4,7 +4,7 @@
 		<title>data design for amazon reviews</title>
 	</head>
 	<body>
-		<header>Nathan</header>
+		<header>Nathan is one cool dude - nathan sanchez</header>
 		<h1>Tom Crops</h1>
 		<img src="img/wild-man-looking-confused-banana-28747201.jpg" alt="Tom Crops"/>
 		<p>mainly people who buy things on amazon and want some reviews for the products there buying. My persona is gonna be named Tom Crops Tom is a a young man who wants to buy things on amazon,Tom is 22 5'8 avreage looks ,single, Tom manily uses his home pc his internet provieder is comcast :c he sometime uses his phone to shop around on amamazon. Tom works hard and has bought so many things on amazon and left so many reviews that amazon made him a prproduct tester and offical reviewer </p>
@@ -45,7 +45,7 @@
 
 			<li>productid has a many to many relationship</li>
 			<li>reviewid has a one to many relationships</li>
-
+			<li>profileid has a one to many</li>
 		</ul>
 
 
