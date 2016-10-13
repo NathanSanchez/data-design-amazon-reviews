@@ -19,22 +19,36 @@
 		<!--if it looks like i dont know what im doing well your right cause i dont 5-->
 		<p>comment section 1-5 star button user profile name </p>
 
-		<h1>conceptual model</h1>
+		<h1>entities</h1>
 		<ul>
 
 			<li>productid (primary)</li>
+			<li>Profileid</li>
+			<li>reviewid</li>
+
+		</ul>
+
+		<h1>attributes</h1>
+		<ul>
+
 			<li>productInfo</li>
-			<li>userProfileid</li>
-			<li>userName</li>
-			<li>userPicture</li>
+			<li>profileName</li>
+			<li>profilePicture</li>
 			<li>reviewid</li>
 			<li>reviewStars</li>
 			<li>reviewContent</li>
 			<li>reviewDateTime</li>
-			<li>productid has a many to many relationship</li>
-			<li>reviewid has a 1 to many relationships</li>
 
 		</ul>
+		<h1>relationships</h1>
+		<ul>
+
+			<li>productid has a many to many relationship</li>
+			<li>reviewid has a one to many relationships</li>
+
+		</ul>
+
+
 	</body>
 
 
