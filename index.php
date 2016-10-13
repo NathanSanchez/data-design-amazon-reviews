@@ -16,7 +16,7 @@
 		<h1>action list</h1>
 
 		<h1>identify entities</h1>
-		<!--if it looks like i dont know what im doing well your right cause i dont 4-->
+		<!--if it looks like i dont know what im doing well your right cause i dont 5-->
 		<p>comment section 1-5 star button user profile name </p>
 
 		<h1>conceptual model</h1>
