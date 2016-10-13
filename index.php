@@ -29,10 +29,11 @@
 
 		</ul>
 
+
 		<h1>attributes</h1>
 		<ul>
 
-			<li>productInfo</li>
+			<li>productName</li>
 			<li>productPrice</li>
 			<li>productQuantity</li>
 			<li>profileName</li>
