@@ -12,7 +12,8 @@
 		<h1>use case</h1>
 
 		<p>Tom Crops uses amazon to shop he loves shopping he can find anything on amazon he often looks for good deals on toys and such so he can send them to his sisters kids her kids dont have alot of toys and tom likes giving them toys because he likes to see them happy. sometimes Tom looks for new clothes for himself on amazon he always trys to find good deals on some sick new clothes which hes pretty good at.</p>
-		<h1>action list</h1>
+
+		<h1>action flow</h1>
 
 		<p>Tom looking for some shoes, goes to amazon.com goes to search bar types in cool shoes 876 results are found. Tom starts scrolling down the web page looking at all the cool shoes finds a pair of shoes he likes double clicks on them decied that the shoes are right for him adds them to cart clicks on payment all the credit card info boxes pop up he enters his card info then he adds his address with toms amazon prime account he gets 2 day free shipping. fast forword 2 days and tom gets his new kicks hes pretty hype about them puts them on instantly he feels like a new man tom feels so good he goes back to the page for his cool shoes and scrolls down to the review section begains typing out one of toms hella good reviews leaves a 5 star rating</p>
 
