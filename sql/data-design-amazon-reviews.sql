@@ -25,7 +25,8 @@ CREATE TABLE review (
 
 CREATE TABLE product (
 	productId INT UNSIGNED AUTO_INCREMENT NOT NULL,
-	productPrice INT UNSIGNED NOT NULL
+	productPrice INT UNSIGNED NOT NULL,
+	PRIMARY KEY (productId)
 
 );
 -- kill the children first >;^(

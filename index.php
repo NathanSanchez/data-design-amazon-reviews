@@ -52,8 +52,7 @@
 
 		</ul>
 
-
-
+		<img src="erd.svg" alt="ERD"/>
 
 
 	</body>
