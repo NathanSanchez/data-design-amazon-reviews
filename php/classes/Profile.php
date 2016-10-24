@@ -30,7 +30,40 @@
 			 */
 			private $reviewDate;
 
-			// CONSTUCTOR GOES HERE LATES
+			/**
+			 * constructor
+			 *
+			 * @param int|null $newReviewId of this Review or null if a new Reveiw
+			 * @param int $newReviewPeofileId id of the Profile that sent this Review
+			 * @param string $newReviewContent string containing actual review data
+			 * @param \DateTime|string|null $newReviewDate date and time Review was sent or null if set to current date and time
+			 * @throws \InvalidArgumentException if data types are not valid
+			 * @throws \RangeException if data values are out of bounds (e.g., strings too long, negative integers)
+			 * @throws \TypeError if data types violate type hints
+			 * @throws \Exception if other exception occurs
+			 **/
+			public function __construct(int $newReviewId = null, int $newReviewProfileId, string $newReviewContent, $newReveiwDate = null) {
+				try {
+					$this->setReviewId($newReviewId);
+					$this->setReviewProfileId($newReviewProfileId);
+					$this->setReviewContent($newReviewContent);
+					$this->setReviewDate($newReveiwDate);
+				} catch(\InvalidArgumentException $invalidArgument) {
+					// rethrow the exception to the caller
+					throw(new \InvalidArgumentException($invalidArgument->getMessage(), 0, $invalidArgument));
+				} catch(\RangeException $range) {
+					//rethrow the exception to the caller
+					throw(new \RangeException($range->getMessage(), 0, $range));
+				} catch(\TypeError $typeError) {
+					// rethrow the exception to the caller
+					throw(new \TypeError($typeError->getMessage(), 0, $typeError));
+				} catch(\Exception $exception) {
+					// rethrow the exception to the caller
+					throw(new \Exception($exception->getMessage(), 0, $exception));
+				}
+
+
+			}
 
 
 			/**
@@ -322,3 +355,6 @@ reviewDate = :reviewDate WHERE reviewId = :reviewId";
 				return ($review);
 			}
 		}
+
+
+		$testreview = new Review(null, 39, "@nathan sanchez", new\DateTime());
